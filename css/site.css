@@ -8,6 +8,11 @@ body {
     z-index: 9999;
 }
 
+button.developers_button {
+    background: none;
+    border: none;
+}
+
 #tsparticles {
     position: fixed;
     margin: 0;
