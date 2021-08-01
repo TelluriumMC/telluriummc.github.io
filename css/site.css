@@ -8,7 +8,7 @@ body {
     z-index: 9999;
 }
 
-#masthead {
+#tsparticles {
     height: 100%;
     height: 100vh;
     background: linear-gradient(67deg, rgba(9,0,18,1) 0%, rgba(16,6,27,1) 100%);
@@ -17,7 +17,7 @@ body {
     overflow: hidden;
 }
 
-#masthead > div {
+#tsparticles > div {
     display: flex;
     justify-content: center;
     align-items: center;
