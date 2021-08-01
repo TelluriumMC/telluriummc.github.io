@@ -9,11 +9,13 @@ body {
 }
 
 #tsparticles {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
     height: 100%;
-    height: 100vh;
-    background: linear-gradient(67deg, rgba(9,0,18,1) 0%, rgba(16,6,27,1) 100%);
-    z-index: 4;
-    overflow: hidden;
 }
 
 #tsparticles > div {
@@ -51,14 +53,4 @@ body {
 
 .bg-dark.scrolled {
     background: #10061b !important;
-}
-
-@keyframes xd {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
 }
