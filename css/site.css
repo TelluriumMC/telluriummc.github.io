@@ -13,7 +13,6 @@ body {
     height: 100vh;
     background: linear-gradient(67deg, rgba(9,0,18,1) 0%, rgba(16,6,27,1) 100%);
     z-index: 4;
-    animation: xd 10s ease;
     overflow: hidden;
 }
 
