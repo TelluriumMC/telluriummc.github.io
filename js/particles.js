@@ -147,7 +147,7 @@ tsParticles.load("tsparticles", {
     color: "#000000",
     image: "",
     position: "50% 50%",
-    repeat: "no-repeat",
+    repeat: "repeat",
     size: "cover"
   },
   emitters: {
