@@ -54,10 +54,14 @@ button.developers_button {
    margin-bottom: 0.5em;
  }
 
+.lead.slogan {
+    line-height:0.8 !important;
+}
+
 .bg-dark {
     background: 0 0 !important;
 }
 
 .bg-dark.scrolled {
-    background: #10061b !important;
+    background: #000000 !important;
 }
