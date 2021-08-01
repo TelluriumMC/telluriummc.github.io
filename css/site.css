@@ -8,11 +8,8 @@ body {
     z-index: 9999;
 }
 
-button.developers_button {
-    background: none;
-    border: none;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    color: #fff;
+.developers_button {
+    font-size: 1.2rem !important;
 }
 
 #tsparticles {
