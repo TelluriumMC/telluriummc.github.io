@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <!-- Main Site CSS -->
     <link rel="stylesheet" href="css/site.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/particles.css" rel="stylesheet"/>
 
     <title>Tellurium</title>
   </head>
   <body>
 
-<div id="masthead">
+<div id="tsparticles">
   <div>
     <div>
         <h1 class="font-weight-light animate__animated animate__fadeInUp">Tellurium Minecraft</h1>
@@ -34,8 +36,11 @@
     <!-- Font Awesome JS -->
     <script src="https://kit.fontawesome.com/d9d03a62c3.js" crossorigin="anonymous"></script>
     <!-- Bootstrap and Popper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>$(window).scroll(function(){$('nav').toggleClass('scrolled', $(this).scrollTop() > 512);});</script> 
-    <script>particlesJS("masthead",{particles:{number:{value:170,density:{enable:!1,value_area:700}},color:{value:["#fff","#6361ac","#bebf28","#c905d6"]},opacity:{value:.5,random:!1,anim:{enable:!0,speed:2,opacity_min:0,sync:!1}},size:{value:6,random:!1,anim:{enable:!0,speed:5,size_min:0,sync:!1}},line_linked:{enable:!0,distance:100,color:"#ffffff",opacity:.2,width:1},move:{enable:!0,speed:9,direction:"none",random:!0,straight:!1,out_mode:"out",bounce:!1,attract:{enable:!1,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!0,mode:"grab"},onclick:{enable:!1,mode:"grab"},resize:!0},modes:{grab:{distance:150,line_linked:{opacity:1}},bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},repulse:{distance:200,duration:.4},push:{particles_nb:4},remove:{particles_nb:2}}},fpsLimit: 120});</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+	integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.17.5/dist/tsparticles.min.js"
+        integrity="sha256-Wcr5q//r5yGozjRl+ToXruCoy75vgiApkKsV30aCns8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
 </body>
 </html>
