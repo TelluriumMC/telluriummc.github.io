@@ -13,10 +13,6 @@ body {
     margin-bottom: 8px;
 }
 
-.developers_button:hover {
-    color: #d3d3d3;
-}
-
 #tsparticles {
     position: fixed;
     margin: 0;
