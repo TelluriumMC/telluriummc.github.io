@@ -1,7 +1,5 @@
 //tsParticles library - https://github.com/matteobruni/tsparticles
 
-//tsParticles library - https://github.com/matteobruni/tsparticles
-
 tsParticles.load("tsparticles", {
   fullScreen: {
     enable: true
@@ -22,7 +20,7 @@ tsParticles.load("tsparticles", {
           value: 30
         },
         zIndex: {
-          value: 7500
+          value: 75
         }
       },
       z2500: {
@@ -30,7 +28,7 @@ tsParticles.load("tsparticles", {
           value: 50
         },
         zIndex: {
-          value: 2500
+          value: 25
         }
       },
       z1000: {
@@ -38,7 +36,7 @@ tsParticles.load("tsparticles", {
           value: 40
         },
         zIndex: {
-          value: 1000
+          value: 10
         }
       }
     },
@@ -89,7 +87,7 @@ tsParticles.load("tsparticles", {
       speed: 5,
       direction: "right",
       random: false,
-      straight: false,
+      straight: true,
       outModes: {
         default: "out"
       },
@@ -100,7 +98,7 @@ tsParticles.load("tsparticles", {
       }
     },
     zIndex: {
-      value: 500,
+      value: 5,
       opacityRate: 0.5
     }
   },
@@ -147,13 +145,13 @@ tsParticles.load("tsparticles", {
     color: "#000000",
     image: "",
     position: "50% 50%",
-    repeat: "repeat",
+    repeat: "no-repeat",
     size: "cover"
   },
   emitters: {
     position: {
       y: 55,
-      x: 0
+      x: -30
     },
     rate: {
       delay: 7,
@@ -167,11 +165,48 @@ tsParticles.load("tsparticles", {
       shape: {
         type: "images",
         options: {
-          images: {
-            src: "https://particles.js.org/images/cyan_amongus.png",
-            width: 500,
-            height: 634
-          }
+          images: [
+            {
+              src: "https://particles.js.org/images/amongus_blue.png",
+              width: 205,
+              height: 267
+            },
+            {
+              src: "https://particles.js.org/images/amongus_cyan.png",
+              width: 207,
+              height: 265
+            },
+            {
+              src: "https://particles.js.org/images/amongus_green.png",
+              width: 204,
+              height: 266
+            },
+            {
+              src: "https://particles.js.org/images/amongus_lime.png",
+              width: 206,
+              height: 267
+            },
+            {
+              src: "https://particles.js.org/images/amongus_orange.png",
+              width: 205,
+              height: 265
+            },
+            {
+              src: "https://particles.js.org/images/amongus_pink.png",
+              width: 205,
+              height: 265
+            },
+            {
+              src: "https://particles.js.org/images/amongus_red.png",
+              width: 204,
+              height: 267
+            },
+            {
+              src: "https://particles.js.org/images/amongus_white.png",
+              width: 205,
+              height: 267
+            }
+          ]
         }
       },
       size: {
@@ -202,4 +237,3 @@ tsParticles.load("tsparticles", {
     }
   }
 });
-
